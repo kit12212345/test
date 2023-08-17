@@ -3,8 +3,6 @@
 #include <thread>
 
 
-
-
 Oanda::Oanda()
 {
     currentInstrumentName = "NZD/USD";
