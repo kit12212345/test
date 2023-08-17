@@ -2,6 +2,9 @@
 #include "Functions.hpp"
 #include <thread>
 
+
+
+
 Oanda::Oanda()
 {
     currentInstrumentName = "NZD/USD";
@@ -439,6 +442,8 @@ void Oanda::LoadCandles(Instrument& item)
     {
         bool complite = it->second.get<std::string>("complete") == "true";
     }
+
+
     int a = 0;
 }
 float Oanda::GetStopLossPrice(float price, int type)
