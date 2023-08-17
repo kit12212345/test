@@ -441,7 +441,6 @@ void Oanda::LoadCandles(Instrument& item)
     }
     int a = 0;
 }
-
 float Oanda::GetStopLossPrice(float price, int type)
 {
     float v = ((price / 100.0f) * STOP_LOSS_PRC);
